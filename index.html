@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+    
+    </style>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo2.jpg" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tab.html">Blog</a></li>
+            </ul>
+            <i class="fas fa-bars"></i>
+        </nav>
+        <div class="header-text">
+            <p>Computer Science Student</p>
+            <h1>Hi, I'm<span>Ornela</span><br> Senja from Albania.</h1>
+        </div>
+    </div>
+    </div>
+    <!-- ----------- About Section ----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Deeply passionate about frontend development. Every day, I am growing my skills, knowing that every expert starts from a point and builds upon their foundation. I have a huge interest in designing websites in unique ways, ensuring each site has its own identity. The ability to create visually appealing and functional websites pushes me, to continually improve and learn more each day in this field during and after my bachelor degree. As I progress in my studies by having a good GPA, I am excited about the opportunities to grow as a Front-end developer and make meaningful contributions to the world of frontend design.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>  
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>C++/c#/HTML/CSS/JavaScript</li>
+                            <li><span>SQL</span><br></li>
+                            <li><span>Attention to Detail</span><br>...and the ability to work with precision<br></li>
+                            <li><span>GIT</span><br></li>
+                            <li><span>Critical thinking</span><br></li>
+                            <li><span>Data structures and algorithms</span><br></li>
+                            <li><span>Problem solving</span><br></li>
+                            <li><span>Creativity and Curiosity</span><br> Thinking outside the box.</li>
+                            <li><span>An eye for detail</span><br> Attention to detail ensures better code quality.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Online</span><br>Simple designs using HTML,CSS</li>
+                            <li><span>University</span><br>Building Websites</li>  
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-2026 Ongoing bachelor</span><br>Computer Science Student</li>
+                        </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------- Projects Section ----------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <h2>Note Taking website</h2>
+                    <p>A simple note taking website using HTML,CSS,JavaScript. It has minimalistic style in the same time usable and pretty much practical for everyone.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Personal Portofolio</h2>
+                    <p>A Personal Portofolio where anyone can read information about me, my education, projects and also will be able to contact me. To create it, I used... </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>E-commerce Site</h2>
+                    <p>A store online to promote and sell products. Starting from makeup to clothes. Used from all over the world. </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------- Portofolio Section ----------- -->
+    <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpg">
+                    <div class="layer">
+                        <h3>Note Taking App</h3>
+                        <p>The app allows you to write or delete notes and you can add them back too.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg">
+                    <div class="layer">
+                        <h3>Personal Portofolio</h3>
+                        <p>The Website has information about me, my skills and work. You can also contact me.</p>
+                    </div>
+                 </div>
+                 <div class="work">
+                    <img src="work3.jpg">
+                    <div class="layer">
+                        <h3>Foodlovers Website</h3>
+                        <p>A website to see recipe videos and also gives you the option to share with others.</p>
+                    </div>          
+                </div>
+                <div class="work">                                 
+                    <img src="work4.jpg">
+                    <div class="layer">
+                        <h3>Log in Form</h3>
+                        <p>A registration form to put your information and log in.</p>
+                    </div>       
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------- Contact Section ----------- -->
+<div id="contact">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-envelope"></i>ornelasenja13@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>0694666780</p>
+            <div class="social-icons">
+                <a href="https://github.com/Ornelaa1"><i class="fa-brands fa-github"></i></a>
+                <a href="https://al.linkedin.com/in/ornela-senja-382b33344"><i class="fa-brands fa-linkedin"></i></a>
+                
+            </div>
+            <a href="CV.jpg" download  class="btn btn2">Download CV</a>
+        </div>
+        
+        <div class="contact-right">
+            <h2 class="sub-title">Get In Touch</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="88340587-a166-4e82-903a-9efaa4283d8b">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+                
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea><br><br>
+
+            
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
